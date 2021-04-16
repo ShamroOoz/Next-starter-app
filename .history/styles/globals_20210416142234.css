@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-bar {
+  @apply no-underline text-black hover:border-b-2 border-black uppercase tracking-wide font-bold text-xs py-3 mr-8;
+}
